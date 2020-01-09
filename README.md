@@ -15,11 +15,11 @@ Add SetEnv MAGE_PROFILER "html" in .htaccess in your project
 <pre>
 [mysqld]
 query_cache_type=1
-query_cache_size=128M
-query_cache_limit=100M
+query_cache_size=512M
+query_cache_limit=512M
 innodb_buffer_pool_size=4096M
 innodb_flush_log_at_trx_commit=0
 max_heap_table_size=768M
 tmp_table_size=768M
-innodb_flush_method=O_DSYNC
+innodb_log_file_size=1024M
 </pre>
