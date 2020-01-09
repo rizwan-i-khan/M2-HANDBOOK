@@ -21,5 +21,5 @@ innodb_buffer_pool_size=4096M
 innodb_flush_log_at_trx_commit=0
 max_heap_table_size=768M
 tmp_table_size=768M
-innodb_log_file_size=1024M
+innodb_log_file_size=1024M [This should be 25% of innodb_buffer_pool_size]
 </pre>
