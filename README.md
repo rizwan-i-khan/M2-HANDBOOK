@@ -8,7 +8,7 @@ github coding standards: https://github.com/magento/magento-coding-standard <br/
 
 
 <h2>ENABLE HTML PROFILER IN MAGENTO2</h2>
-Add SetEnv MAGE_PROFILER "html" in .htaccess in your project
+Add <b>SetEnv MAGE_PROFILER "html"</b> in .htaccess in your project
 
 
 <h2> Mysql Optmization : add below lines in /etc/mysql/my.cnf</h2>
