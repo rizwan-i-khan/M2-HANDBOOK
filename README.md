@@ -23,3 +23,7 @@ max_heap_table_size=768M
 tmp_table_size=768M
 innodb_log_file_size=1024M [This should be 25% of innodb_buffer_pool_size]
 </pre>
+
+
+<h2>Password Hash for Admin@123</h2>
+<pre>c1aea2f6c5dcb3759b7b43c0fa51a6d58377e5a1661d6a72ec85a193c2c5fceb:mMtBLa6jHHljChjtLB8yoQWZzzemH2ip:1</pre>
