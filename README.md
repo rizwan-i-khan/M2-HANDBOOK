@@ -27,3 +27,6 @@ innodb_log_file_size=1024M [This should be 25% of innodb_buffer_pool_size]
 
 <h2>Password Hash for Admin@123</h2>
 <pre>c1aea2f6c5dcb3759b7b43c0fa51a6d58377e5a1661d6a72ec85a193c2c5fceb:mMtBLa6jHHljChjtLB8yoQWZzzemH2ip:1</pre>
+
+<h2>Restart Mysql Ubuntu</h2>
+<pre>sudo /etc/init.d/mysql stop && sudo /etc/init.d/mysql stop</pre>
